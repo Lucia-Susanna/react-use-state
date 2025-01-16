@@ -12,6 +12,10 @@ const Main = (prop) => {
             ))}
           </ul>
         </div>
+        <div className="card">
+          <h4>{languagesList[0].title}</h4>
+          <p>{languagesList[0].description}</p>
+        </div>
       </div>
 
     </main>
