@@ -5,6 +5,10 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+ul {
+  list-style: none;
+}
+
 /* header */
 
 header {
@@ -15,3 +19,30 @@ header {
 }
 
 /* main */
+
+main {
+  .container {
+    width: 80%;
+    margin: 20px auto;
+
+    .buttons {
+
+      ul {
+        display: flex;
+
+        li {
+          margin: 10px;
+
+          button {
+            padding: 10px;
+            text-transform: uppercase;
+            background-color: #0B6EFD;
+            color: white;
+            border: 0px;
+            border-radius: 7px;
+          }
+        }
+      }
+    }
+  }
+}
